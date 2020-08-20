@@ -72,7 +72,7 @@ def set_remind(event, content):
         # 指定時刻が現在時刻より後の場合
         if 0 < diff_time:
             # 受理した場合の処理
-            reply(event, remind_time.strftime("【お知らせ】\n%-m月%-d日 の %-H:%M ") + f"に{event_name} をお知らせします")
+            reply(event, remind_time.strftime("【お知らせ】\n%-m月%-d日 の %-H:%M ") + f"に {event_name} をお知らせします")
             # 指定時刻まで待機
             time.sleep(diff_time)
             # リマインドする
