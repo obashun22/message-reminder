@@ -5,7 +5,7 @@
 ## 動作環境
 - Python3
 - Heroku
-- LINE Messageing API
+- LINE Messaging API
 
 ## 仕様
 LINE Bot「Message Reminder」に個人またはグループで、
